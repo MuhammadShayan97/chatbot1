@@ -1,0 +1,249 @@
+
+[
+  {
+    "intent": "greeting",
+    "keywords": [
+      "hello",
+      "hi",
+      "hey",
+      "salam",
+      "aoa",
+      "assalam o alaikum",
+      "assalamu alaikum",
+      "assalamualaikum",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "salam chatbot",
+      "kya haal hai"
+    ],
+    "reply": "Wa Alaikum Assalam! Welcome to UOS Helpdesk Bot. 😊 Main University of Sargodha ke students ki admissions, fees, departments, exams, library aur hostel se related sawalat mein madad kar sakta hoon. Aap kya maloom karna chahte hain?"
+  },
+  {
+    "intent": "goodbye",
+    "keywords": [
+      "bye",
+      "goodbye",
+      "allah hafiz",
+      "khuda hafiz",
+      "phir milenge",
+      "see you",
+      "take care"
+    ],
+    "reply": "Allah Hafiz! 👋 UOS Helpdesk Bot use karne ka shukriya. University se related koi aur sawal ho to dobara pooch sakte hain."
+  },
+  {
+    "intent": "thanks",
+    "keywords": [
+      "thank you",
+      "thanks",
+      "thankyou",
+      "shukriya",
+      "bohat shukriya",
+      "jazakallah",
+      "jazak Allah"
+    ],
+    "reply": "You're welcome! 😊 Khushi hui ke main aapki madad kar saka. UOS se related koi aur sawal ho to poochiye."
+  },
+  {
+    "intent": "bot_identity",
+    "keywords": [
+      "who are you",
+      "what is your name",
+      "your name",
+      "tum kon ho",
+      "aap kon hain",
+      "ap ka naam",
+      "who created you"
+    ],
+    "reply": "Main UOS Helpdesk Bot hoon, ek rule-based student assistance chatbot. Main University of Sargodha ke admissions, fees, academic programs, exams, library, hostel aur student services ke bare mein predefined guidance deta hoon."
+  },
+  {
+    "intent": "help",
+    "keywords": [
+      "help",
+      "what can you do",
+      "what can i ask",
+      "how can you help",
+      "kis bare mein bata sakte ho",
+      "kya maloomat hai",
+      "madad chahiye"
+    ],
+    "reply": "Main in topics par general guidance de sakta hoon: admissions, fee structure, scholarships, departments, degree programs, class timings, exams, results, library, hostels, transcripts aur student cards. Aap English ya Roman Urdu mein sawal pooch sakte hain."
+  },
+  {
+    "intent": "admission",
+    "keywords": [
+      "admission",
+      "admissions",
+      "how to apply",
+      "apply for admission",
+      "admission process",
+      "admission last date",
+      "last date",
+      "eligibility criteria",
+      "merit list",
+      "merit",
+      "prospectus",
+      "dakhla",
+      "admission kaise milega",
+      "apply kaise karun",
+      "dakhle ki last date",
+      "admission kab honge"
+    ],
+    "reply": "UOS admission ke liye apne desired program ki eligibility, application procedure, required documents aur deadline official admission notice mein check karein. Current admission dates aur merit lists change ho sakti hain. Official website: https://www.uos.edu.pk/ ."
+  },
+  {
+    "intent": "fee",
+    "keywords": [
+      "fee structure",
+      "semester fee",
+      "tuition fee",
+      "fee challan",
+      "fee submission",
+      "fee deadline",
+      "scholarship",
+      "fees",
+      "fee",
+      "fees kitni hain",
+      "semester ki fee",
+      "fee kitni hai",
+      "fees kaise jama karwaun",
+      "challan",
+      "scholarship kaise milegi"
+    ],
+    "reply": "UOS ki exact fee program, semester aur applicable charges ke mutabiq different ho sakti hai. Latest fee structure, challan aur payment deadline official university website ya relevant accounts office se confirm karein. Scholarships ke liye official eligibility criteria aur announcements check karein: https://www.uos.edu.pk/ ."
+  },
+  {
+    "intent": "departments",
+    "keywords": [
+      "departments",
+      "department list",
+      "available programs",
+      "degree programs",
+      "bs programs",
+      "media studies",
+      "department of media studies",
+      "computer science",
+      "programs offered",
+      "kon se departments",
+      "kon se programs",
+      "media studies department",
+      "bs media studies"
+    ],
+    "reply": "University of Sargodha mein available departments aur degree programs ki current list official website ke academic departments aur admissions sections mein check karein. Program availability, eligibility aur offered degree level intake ke mutabiq change ho sakte hain: https://www.uos.edu.pk/ ."
+  },
+  {
+    "intent": "timing",
+    "keywords": [
+      "university timings",
+      "office hours",
+      "class timings",
+      "class schedule",
+      "opening time",
+      "closing time",
+      "working hours",
+      "timing",
+      "university kab khulti hai",
+      "classes kab hoti hain",
+      "office kab khulta hai",
+      "class ka time"
+    ],
+    "reply": "UOS ke office hours, class schedules aur department timings different ho sakte hain. Apne department ka timetable ya relevant university office check karein. Main current timings ko independently verify nahi kar sakta."
+  },
+  {
+    "intent": "examinations",
+    "keywords": [
+      "exam",
+      "exams",
+      "examination",
+      "date sheet",
+      "datesheet",
+      "result",
+      "results",
+      "roll number slip",
+      "roll no slip",
+      "paper schedule",
+      "exam schedule",
+      "result kab ayega",
+      "date sheet kab ayegi",
+      "paper kab hai",
+      "result kaise check karun"
+    ],
+    "reply": "UOS examinations, date sheets, results aur roll number slips ke liye apne department aur university ke official examination announcements check karein. Latest schedule aur result ki date main independently verify nahi kar sakta. Official website: https://www.uos.edu.pk/ ."
+  },
+  {
+    "intent": "library",
+    "keywords": [
+      "library",
+      "library card",
+      "library timing",
+      "books issue",
+      "book return",
+      "reading room",
+      "library membership",
+      "kitab",
+      "library card kaise banega",
+      "books kaise milengi",
+      "library kab khulti hai"
+    ],
+    "reply": "UOS library ke membership process, book borrowing, return dates aur reading facilities ke liye library staff se contact karein. Current timings, borrowing limits aur rules ko directly confirm karein."
+  },
+  {
+    "intent": "hostel",
+    "keywords": [
+      "hostel",
+      "hostel fee",
+      "hostel admission",
+      "hostel application",
+      "room allotment",
+      "hostel charges",
+      "accommodation",
+      "mess",
+      "hostel kaise milega",
+      "hostel ki fee",
+      "hostel form",
+      "hostel mein admission"
+    ],
+    "reply": "UOS hostel ke liye hostel administration ya relevant student affairs office se eligibility, application form, room availability, charges aur required documents confirm karein. Main current room availability ya exact hostel fee verify nahi kar sakta."
+  },
+  {
+    "intent": "student_services",
+    "keywords": [
+      "student card",
+      "identity card",
+      "id card",
+      "transcript",
+      "degree",
+      "certificate",
+      "character certificate",
+      "document verification",
+      "duplicate card",
+      "student card kaise banega",
+      "transcript kaise milegi",
+      "degree kaise milegi",
+      "certificate kaise banega"
+    ],
+    "reply": "UOS student card, transcript, degree aur certificates ke liye relevant department, student affairs office ya examination branch se procedure, required documents aur applicable charges confirm karein. Official information: https://www.uos.edu.pk/ ."
+  },
+  {
+    "intent": "university_info",
+    "keywords": [
+      "university of sargodha",
+      "uos",
+      "about uos",
+      "university location",
+      "campus location",
+      "uos kahan hai",
+      "university kahan hai",
+      "uos ka full form",
+      "uos ka matlab"
+    ],
+    "reply": "UOS ka full form University of Sargodha hai. Yeh Sargodha, Punjab, Pakistan ki university hai. Academic programs aur university services ki official information ke liye visit karein: https://www.uos.edu.pk/ ."
+  },
+  {
+    "intent": "fallback",
+    "keywords": [],
+    "reply": "Sorry, mujhe aapke sawal ka matching jawab nahi mila. 😊 Aap admissions, fees, departments, exams, library, hostel ya student services ke bare mein pooch sakte hain. English ya Roman Urdu dono use kar sakte hain."
+  }
+]
